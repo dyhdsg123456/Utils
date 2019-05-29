@@ -42,9 +42,9 @@ public class PdfTest {
             content.setColorFill(BaseColor.LIGHT_GRAY);
             content.setFontAndSize(base, 20);
             content.setTextMatrix(70, 200);
-            content.showTextAligned(Element.ALIGN_CENTER, "韩洋", 100, 350, 55);
-            content.showTextAligned(Element.ALIGN_CENTER, "韩洋", 400, 350, 55);
-            content.showTextAligned(Element.ALIGN_CENTER, "韩洋", 700, 350, 55);
+            content.showTextAligned(Element.ALIGN_CENTER, "韩洋", 120, 150, 45);
+            content.showTextAligned(Element.ALIGN_CENTER, "韩洋", 380, 330, 45);
+            content.showTextAligned(Element.ALIGN_CENTER, "韩洋", 630, 480, 45);
             content.setColorFill(BaseColor.BLACK);
             content.setFontAndSize(base, 2);
 //            content.showTextAligned(Element.ALIGN_CENTER, "下载时间：" + waterMarkName + "", 300, 10, 0);
